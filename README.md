@@ -16,6 +16,13 @@ Example:
 python3 ./chatbot.py 10
 ```
 
+## Automation
+
+Run automated tests and have the questions in test.txt
+```bash
+npx playwright test
+```
+
 ## Usage
 
 Have your OpenAI API key as an environment variable or in a file called .env then run the script, otherwise it will ask you for the OpenAI API key

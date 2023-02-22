@@ -1,3 +1,9 @@
+'''
+Generate a meaningful question for testing a chat model
+
+Pipe to txt file to save output
+'''
+
 from simple_term_menu import TerminalMenu
 import pyperclip
 import openai
@@ -18,6 +24,7 @@ def main():
     engine = "davinci"
     prompt = "Please generate a meaningful question for testing a chat model."
     OVERRIDE_PROMPT = False
+    iter_count = 1
 
     try:
         iter_count = 1 if len(sys.argv) == 1 else int(sys.argv[1])

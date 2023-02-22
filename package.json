@@ -1,0 +1,15 @@
+{
+  "name": "chatbots-testing-chatbots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Zeyu-Li/chatbots-testing-chatbots.git",
+  "author": "Andrew Li <zeyu.li23@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.31.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
